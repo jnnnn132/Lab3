@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+</head>
+<body>
+    <h1>Number Guessing Game</h1>
+    <table cellspacing="30">
+        <tr>
+            <td>
+                <h2>How to Play : </h2>
+            </td>
+            
+            <td>
+                <div class="HowtoPlay"> 
+                We have selected a random number between 1 and 100. 
+                See if you can guess it in 10 turns or less.<br> 
+                We’ll tell you if your guess was too high or to low. 
+                </div>
+            </td>
+        </tr>
+    </table>
+    <table cellspacing="30">
+        <tr>
+            <td>
+                <h2>&nbsp;Enter a guess :&nbsp; </h2>
+            </td>
+            
+            <td>
+                <div class="form"> 
+                    <input type = "text" class = "Field" 
+                    id = "guessField" placeholder="Select Number (1-100)"> 
+                    <input type = "submit" class = "Submit"  
+                    value = "Submit" id = "submitguess">
+                </div>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <table align="center"><tr><td><div class="result"></div></td></tr></table>
+    <table cellspacing="30">
+        <tr>
+            <td>
+                <h2>&nbsp;Previous guesses :</h2>
+            </td>
+            <td class="Previous">
+            </td>
+            <td>
+                <div class="turn"></div>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <a href="index.html"><button>Start new game</button></a>
+    <script src="index.js"></script>
+</body>
+</html>
