@@ -107,7 +107,7 @@ db.collection('Contact').orderBy("Firstname").onSnapshot(doc =>{
               var options = {
                 title: 'Gender',
                 titleTextStyle: {color: 'black', fontSize: 30},
-                colors:['#EC00FF','#3055FF'] ,
+                colors:['#37ff00','#ffbb00'] ,
                 pieHole: 0.5,
               };
       
